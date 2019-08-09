@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'gridview.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
@@ -26,7 +26,7 @@ class PhoenixHome extends StatelessWidget{
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
-          
+         GridView()
         ],
       ),
     );
